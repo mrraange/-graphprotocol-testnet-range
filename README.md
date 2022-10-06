@@ -226,3 +226,11 @@ logs -f indexer-agent
 ![Screenshot_7](https://user-images.githubusercontent.com/100018176/194324985-94ae1a5f-52e5-4116-993f-b3d14a085488.png)
 
 I need to understand the next steps. In my case, there were several reinstallations to different servers. The server is used by Hetzner AX-41
+
+Here is the proposed solution! Thank you for your help!
+
+```
+SUBGRAPH_ENDPOINT="https://api.thegraph.com/subgraphs/name/graphprotocol/graph-network-goerli"
+INDEXER_SERVICE_NETWORK_SUBGRAPH_ENDPOINT="https://api.thegraph.com/subgraphs/name/graphprotocol/graph-network-goerli"
+INDEXER_AGENT_NETWORK_SUBGRAPH_ENDPOINT="https://api.thegraph.com/subgraphs/name/graphprotocol/graph-network-goerli"
+```
